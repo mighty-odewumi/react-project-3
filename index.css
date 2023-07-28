@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gray {
+  color: gray;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.nav {
+  height: 70px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 2px gray;
+  width: 100%;
+  margin: auto;
+}
+
+.nav--img {
+  margin-left: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--img {
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  align-self: center;
+  max-width: 400px;
+  margin-top: 30px;
+}
+
+.hero--title, .hero--text {
+  padding-left: 20px;
+}
+
+.hero--title {
+  margin-top: 24px;
+}
+
+.hero--text {
+  margin-top: 8px;
+  width: 90%;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.card--status {
+  display: none;
+}
+
+section {
+  padding: 20px;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card {
+  width: 175px;
+  font-size: medium;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+}
+
+.card-info-1 {
+  margin-bottom: 4px;
+}
+
+.card-info-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 4px;
+}
+
+.card--img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 16px; 
+}
+
+.card--badge {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 3px;
+}
